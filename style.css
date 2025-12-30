@@ -1,0 +1,40 @@
+body {
+    font-size: 15pt;
+    margin: 0;
+   font-weight: bold;
+   background: linear–gardient( to right, reb,blue)
+}
+
+strong { color:yellow;
+    
+}
+h1{ color: lawngreen;
+    
+}
+button{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 15px
+    
+}
+btn {
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background: linear-gradient(45deg, var(--accent), #7cffcb);
+    color: #000;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px var(--accent);
+img{
+    height: 9999999px;
+}
+video{
+    width: 15px;
+}
